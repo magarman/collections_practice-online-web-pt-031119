@@ -38,5 +38,6 @@ end
 
 
 def add_s(array)
-  array.each_with_index {|element, index| element[0, 2, 3].push("a")}
+  array.each_with_index {|element, index|
+  element.push("a")}
 end
